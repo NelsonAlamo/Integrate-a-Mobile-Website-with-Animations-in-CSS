@@ -114,7 +114,7 @@ figure img {
 }
 
 .location_element {
-  width: 2520px;
+  width: 1980px;
   height: 70px;
   background-color: rgb(214, 211, 211);
   font-family: Arial, Helvetica, sans-serif;
@@ -129,7 +129,7 @@ figure img {
 }
 
 #explRestaurants {
-  width: 2520px;
+  width: 1950px;
   height: 320px;
   background-color: whitesmoke;
   margin-left: -8px;
@@ -144,7 +144,7 @@ figure img {
 }
 #explRestaurants p {
   text-align: center;
-  margin-right: 730px;
+  margin-right: 230px;
   font-size: 30px;
   font-weight: bold;
   margin-bottom: 50px;
@@ -181,7 +181,7 @@ figure img {
 }
 
 #menus_page {
-  width: 3050px;
+  width: 1850px;
   height: 230px;
   margin-left: 30px;
   /* ciclo*/
@@ -196,9 +196,9 @@ figure img {
   text-align: left;
 }
 #menus_page .menu_element_btn {
-  width: 460px;
+  width: 440px;
   height: 100px;
-  margin: 30px;
+  margin: 20px;
   margin-left: 100px;
   border-radius: 35px 35px 35px 35px;
   background: whitesmoke;
@@ -208,15 +208,16 @@ figure img {
   background: #f0ccf0;
 }
 #menus_page .menu_element_last_btn {
-  width: 460px;
+  width: 440px;
   height: 100px;
-  margin: 30px;
+  margin: 20px;
   margin-left: 100px;
   border-radius: 35px 35px 35px 35px;
   background: whitesmoke;
   box-shadow: 10px 10px 8px rgb(214, 207, 207);
   margin-right: 50px;
   margin-left: 20px;
+  margin: 20px;
 }
 #menus_page .menu_element_last_btn:hover {
   background: #f0ccf0;
@@ -278,7 +279,7 @@ figure img {
 
 .menu_restaurant {
   flex-direction: column;
-  width: 3050px;
+  width: 1980px;
   height: 500px;
   background-color: whitesmoke;
   margin-left: -8px;
@@ -295,7 +296,7 @@ figure img {
 .menu_restaurant .new_menu {
   position: absolute;
   background: #99E2D0;
-  margin-left: 330px;
+  margin-left: 230px;
   margin-top: 15px;
   width: 90px;
   height: 30px;
@@ -313,17 +314,16 @@ figure img {
   height: 170px;
 }
 .menu_restaurant .image_restaurant {
-  width: 450px;
+  width: 330px;
   height: 340px;
   border: 0px solid white;
   background-color: white;
   border-radius: 20px 20px 20px 20px;
   box-shadow: -1px 7px 15px 5px rgba(0, 0, 0, 0.3);
-  margin-left: 20px;
-  margin: 20px;
+  margin-left: 8em;
 }
 .menu_restaurant .image_restaurant img {
-  width: 450px;
+  width: 330px;
   height: 270px;
   border-radius: 20px 20px 0px 0px;
 }
@@ -719,7 +719,7 @@ figure .logo img {
 }
 
 .footer {
-  width: 2085px;
+  width: 1985px;
   height: 300px;
   margin-left: -8px;
   margin-bottom: 0px;
@@ -728,7 +728,7 @@ figure .logo img {
 .footer .headerfooter {
   display: flex;
   flex-direction: row;
-  padding: 100px;
+  padding: 50px;
 }
 .footer .headerfooter h2 {
   color: white;
@@ -739,7 +739,7 @@ figure .logo img {
 .footer .headerfooter p {
   color: white;
   text-align: left;
-  margin-left: 160px;
+  margin-left: 140px;
   margin-top: -28px;
 }
 .footer .headerfooter a {

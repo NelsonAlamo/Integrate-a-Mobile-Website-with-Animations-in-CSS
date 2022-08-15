@@ -148,7 +148,7 @@
     }
   
     .location_element{
-        width:2520px;
+        width:1980px;
         height: 70px;
         background-color:rgb(214, 211, 211);
         font-family: Arial, Helvetica, sans-serif;
@@ -166,7 +166,7 @@
     }
 
     #explRestaurants{
-        width:2520px;
+        width:1950px;
         height: 320px;
         background-color: whitesmoke;
         margin-left: -8px;
@@ -183,7 +183,7 @@
 
         p{
             text-align: center;
-            margin-right: 730px;
+            margin-right: 230px;
             font-size: 30px; 
             font-weight:bold; 
             margin-bottom: 50px;
@@ -241,7 +241,7 @@
     }
     #menus_page{
        
-       width:3050px;
+       width:1850px;
        height: 230px;
        margin-left: 30px;
        
@@ -258,9 +258,9 @@
         }
 
        @mixin menu_btn {
-        width: 460px;
+        width: 440px;
         height: 100px;
-        margin: 30px;  
+        margin: 20px;  
         
         margin-left: 100px;
         border-radius:35px 35px 35px 35px;
@@ -270,6 +270,7 @@
 
        .menu_element_btn{
             @include menu_btn; 
+          
   
         }
 
@@ -281,6 +282,7 @@
             @include menu_btn;
             margin-right: 50px;
             margin-left: 20px;  
+            margin: 20px;
         }
         
         .menu_element_last_btn:hover{
@@ -350,10 +352,11 @@
     }
     .menu_restaurant{
         flex-direction: column;
-        width:3050px;
+        width:1980px;
         height: 500px;
         background-color:whitesmoke;
         margin-left: -8px;
+       
         .restaurant_title{
             width: 300px;
             
@@ -368,7 +371,7 @@
         .new_menu{
             position: absolute;
             background: $tertiaryColor;
-            margin-left: 330px;
+            margin-left: 230px;
             margin-top: 15px;
             width: 90px;
             height: 30px;
@@ -390,20 +393,22 @@
     
         .image_restaurant{
         
-            width: 450px;
+            width: 330px;
             height: 340px;
             border: 0px solid white;
             background-color: white;
             border-radius: 20px 20px 20px 20px;
             -webkit-box-shadow: -1px 7px 15px 5px rgba(0, 0, 0, 0.3);
 		    box-shadow: -1px 7px 15px 5px rgba(0, 0, 0, 0.3);
-            margin-left: 20px;
-            margin: 20px;
+            margin-left: 8em;
+  
+            
             img {
                
-                width: 450px;
+                width: 330px;
                 height: 270px;
                 border-radius: 20px 20px 0px 0px;
+             
                
                
             }
@@ -763,7 +768,7 @@
 
     @mixin footers {
    
-    width:2085px;
+    width:1985px;
     height: 300px;
     margin-left: -8px;
     margin-bottom: 0px;
@@ -772,7 +777,7 @@
     .headerfooter{
         display: flex;
         flex-direction: row;
-        padding: 100px;
+        padding: 50px;
         
 
        
@@ -786,8 +791,9 @@
         p{
             color: $bodyColor;
             text-align: left;
-            margin-left: 160px;
+            margin-left: 140px;
             margin-top: -28px; 
+            
         }
 
         a{
