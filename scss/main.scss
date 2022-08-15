@@ -3,14 +3,8 @@
 @import './_variables/screensize.scss';
 
 
-
-
 /*........Desktop verson.......*/
-
-    
 /* Center the loader */
-
-
 .loader {
     position: fixed;
     height: 100%;
@@ -58,20 +52,16 @@
   .primaryColor--1 {
     background-color: #9356dc;
   }
-  
   .secundaryColor--2 {
     background-color: #ff79da;
     -webkit-animation-delay: 0.5s;
-            animation-delay: 0.5s;
+        animation-delay: 0.5s;
   }
-  
   .tertiaryColor--3 {
     background-color: #99e2d0;
     -webkit-animation-delay: 0.75s;
             animation-delay: 0.75s;
   }
-
-
   @-webkit-keyframes loader {
     100% {
       opacity: 0;
@@ -125,8 +115,6 @@
 }
 
 /* end loading" */
-
-
     body{
         background:$bodyColor;
         overflow-x: hidden;
@@ -138,7 +126,6 @@
         background-color: $bodyColor;
         justify-items: center;
         margin-top: -8px;
-        
         img{
             width: 200px;
             height: 40px;
@@ -159,10 +146,7 @@
         i{
             text-align: center;
             margin-left: 780px;
-     
         }
-        
-      
     }
 
     #explRestaurants{
@@ -172,13 +156,11 @@
         margin-left: -8px;
         margin-top: -20px;
         padding: 20px;
-        
         h1{
             font-size: 2.5rem;
             padding-top: 1rem;
             margin-bottom: 2rem;
-            margin-left: 42rem;
-            
+            margin-left: 42rem; 
         }
 
         p{
@@ -190,10 +172,6 @@
             color: #5f5f5f;
             
         }
-
-
-
-
 
         .explRestaurants_element{
             width: 320px;
@@ -241,7 +219,6 @@
     }
     
     #menus_page{
-       
        width:1850px;
        height: 230px;
        margin-left: 30px;
@@ -251,19 +228,15 @@
         text-align: left;
         margin-left: 100px;
         }
-       
         .flex_btn{
             display: flex;
             flex-direction: row;
-            
         }
-       
-
+    
        @mixin menu_btn {
         width: 440px;
         height: 100px;
         margin: 20px;  
-        
         margin-left: 100px;
         border-radius:35px 35px 35px 35px;
         background: whitesmoke; 
@@ -278,14 +251,10 @@
                 font-weight: bold;
                 margin-left: 0px;
             }
-          
-  
         }
-
         .menu_element_btn:hover{
             background: #f0ccf0;
         }
-
         .menu_element_last_btn{ 
             @include menu_btn;
             margin-right: 50px;
@@ -298,17 +267,14 @@
                 margin-left: 0px;
             }
         }
-        
         .menu_element_last_btn:hover{
             background: #f0ccf0;
         }
-
        .fa-solid{
             float: left;
             margin-left: 50px;
             font-size:30px;
        }
-
        .fa-mobile-screen-button{
             color:$greyColor;   
             margin-top: 40px; 
@@ -317,7 +283,6 @@
             color:$greyColor;
             margin-top: 40px;
        }
-
        .fa-store{
             color:$primaryColor;
             margin-top: 40px;
@@ -342,27 +307,22 @@
             font-size: 12px; 
             margin-left: 10px;
             margin-top: 6px;
-            color: white;
-            
-         }
-        @include cycle; 
-        
-       }
+            color: white; 
+          }
+            @include cycle; 
+        }
 
-       i{
-            
+       i{   
             font-size: 20px;
             font-style: normal; 
             margin-left: 10px;
-            margin-top: 2px;  
-            
+            margin-top: 2px;      
        }
 
        .cycle_element_modified{
             text-align: center; 
             margin-top: 5px;   
        }
-      
     }
     .menu_restaurant{
         flex-direction: column;
@@ -370,10 +330,8 @@
         height: 500px;
         background-color:whitesmoke;
         margin-left: -8px;
-       
         .restaurant_title{
-            width: 300px;
-            
+            width: 300px;  
         }
         p{
             font-size: 30px; 
@@ -386,27 +344,23 @@
             position: absolute;
             background: $tertiaryColor;
             margin-left: 230px;
-            margin-top: 15px;
+            margin-top: 25px;
             width: 90px;
-            height: 30px;
+            height: 40px;
            .new_menu_element{
-            margin-top: 6px;
-            text-align: center;
-            color: green;
-            margin-left: 30px;
+            color: rgb(5, 65, 5);
+            font-size: 30px;
+            margin-left: 19px;
+            font-weight:bold; 
            }
-
         }
-
         .flex{
             display: flex;
             flex-direction:row;
             width: 370px;
             height: 170px;
         }
-    
         .image_restaurant{
-        
             width: 330px;
             height: 340px;
             border: 0px solid white;
@@ -415,33 +369,26 @@
             -webkit-box-shadow: -1px 7px 15px 5px rgba(0, 0, 0, 0.3);
 		    box-shadow: -1px 7px 15px 5px rgba(0, 0, 0, 0.3);
             margin-left: 8em;
-  
-            
             img {
-               
                 width: 330px;
                 height: 270px;
                 border-radius: 20px 20px 0px 0px;
-             
-               
-               
             }
             .menu_page{
                 margin-left: 5px;
             }
             .menu_name{
-                width: 130px;
-                font-size:16px;
+                width: 230px;
+                font-size:20px;
                 font-weight: bold;
-                margin-left: -5px;
-
-                
+                margin-left: 5px;
             }
             .city{
-                width: 50px;
-                font-size:12px;
-                margin-left: 15px;
-
+                width: 150px;
+                font-size:16px;
+                margin-left: 5px;
+                margin-top: 15px;
+                font-style: normal;
             }
            
             .heart{
@@ -452,7 +399,6 @@
                     background-color: white;
                     border: 2px black;
                 }
-
                 span:hover{
                 cursor: pointer;
                 color:$secundaryColor; /* pink*/
@@ -460,13 +406,9 @@
             }
 
         }
-
     }
 
     /*........menu1.......*/
-
-    // Mixins
-
     @mixin banner_logo{
         .logo{
             width:485px;
@@ -495,19 +437,16 @@
     figure{
         @include banner_logo;
     }
-
     @mixin photos {
         width: 1983px;
         height:450px;
         margin-left: -10px;
         background-size: cover; 
     }
-
     .photo1{
         @include photos;
         background-image:url(../Images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);   
     }
-
     @mixin elements {
         width: 1920px;
         height: 70px;
@@ -571,7 +510,6 @@
         height: 50px;
         margin-left: 20px; 
     }
-
     @mixin principalPage {
         width: 1990px;
         height: 1410px;
@@ -745,7 +683,6 @@
         @include photos;
         background-image:url(../Images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg);   
     }
-    
     @keyframes main_Page_Animation {
         0%{
             transform: translateY(-20px);
@@ -761,7 +698,6 @@
         animation-name: main_Page_Animation;
         animation-duration: 3s;
     }
-
     @keyframes check {
         0%{
             transform: rotate(360deg);
@@ -774,28 +710,20 @@
         }
         
     }
-
     .fa-circle-check{
         animation-name: check;
         animation-duration: 2s;
     }
-
     @mixin footers {
-   
     width:1985px;
     height: 300px;
     margin-left: -8px;
     margin-bottom: 0px;
-   
     background-color: rgb(49, 49, 49);
     .headerfooter{
         display: flex;
         flex-direction: row;
         padding: 50px;
-        
-
-       
-       
         h2{
             color: $bodyColor;
             text-align: left;
@@ -807,47 +735,28 @@
             text-align: left;
             margin-left: 140px;
             margin-top: -28px; 
-            
         }
-
         a{
             text-decoration: none;
             margin-top: 10px;
             color: $bodyColor;
             font-size: 30px;
-            margin-left: 20px;
-          
+            margin-left: 20px;    
         }
     }
-
 }
-
 .footer{
-    
     @include footers;
 }
 
 
-
-
-
-
-
-
-
-
-
- /*........mobile verson 420.......*/
+/*........mobile verson 420.......*/
 @media screen and (max-width: 420px){
-    
     body{
-    
         overflow-x: auto;
-    
     }
+
  /* Center the loader */
-
-
  .loader {
     position: fixed;
     height: 100%;
@@ -856,21 +765,21 @@
     top: 0;
     background-color: whitesmoke;
     -webkit-animation: loader 0.01s;
-            animation: loader 0.01s;
+        animation: loader 0.01s;
     -webkit-animation-delay: 2.5s;
-            animation-delay: 2.5s;
+        animation-delay: 2.5s;
     -webkit-animation-fill-mode: both;
-            animation-fill-mode: both;
+        animation-fill-mode: both;
     z-index: 10;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
         -ms-flex-align: center;
-            align-items: center;
+        align-items: center;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
-            justify-content: center;
+         justify-content: center;
   }
   
   .loader__item {
@@ -899,16 +808,14 @@
   .secundaryColor--2 {
     background-color: #ff79da;
     -webkit-animation-delay: 0.5s;
-            animation-delay: 0.5s;
+     animation-delay: 0.5s;
   }
   
   .tertiaryColor--3 {
     background-color: #99e2d0;
     -webkit-animation-delay: 0.75s;
-            animation-delay: 0.75s;
+         animation-delay: 0.75s;
   }
-
-
   @-webkit-keyframes loader {
     100% {
       opacity: 0;
@@ -926,41 +833,40 @@
   @-webkit-keyframes bounce {
     0% {
       -webkit-transform: translateX(0);
-              transform: translateX(0);
+            transform: translateX(0);
     }
     25% {
       -webkit-transform: translateX(2rem);
-              transform: translateX(2rem);
+            transform: translateX(2rem);
     }
     75% {
       -webkit-transform: translateX(-2rem);
-              transform: translateX(-2rem);
+            transform: translateX(-2rem);
     }
     100% {
       -webkit-transform: translateX(0);
-              transform: translateX(0);
+           transform: translateX(0);
     }
   }
   
   @keyframes bounce {
     0% {
       -webkit-transform: translateX(0);
-              transform: translateX(0);
+            transform: translateX(0);
     }
     25% {
       -webkit-transform: translateX(2rem);
-              transform: translateX(2rem);
+            transform: translateX(2rem);
     }
     75% {
       -webkit-transform: translateX(-2rem);
-              transform: translateX(-2rem);
+            transform: translateX(-2rem);
     }
     100% {
       -webkit-transform: translateX(0);
-              transform: translateX(0);
+            transform: translateX(0);
     }
 }
-
 
 /* end loading" */
     
@@ -973,7 +879,6 @@
         background-color: $bodyColor;
         margin-left: -10px;
         margin-top: -8px;
-        
         img{
             width: 200px;
             height: 40px;
@@ -991,10 +896,7 @@
         margin-left: 3px;
         margin-top: -2px;
         margin-bottom: 15px;
-        
         .location_element{
-         
-           
             height: 40px;
             padding-top: 20px;
             font-family: Arial, Helvetica, sans-serif;
@@ -1004,9 +906,7 @@
                 margin-left: 10px;
             }
         }
-     
     }
-
     #explRestaurants{
         display: flex;
         flex-wrap: wrap;
@@ -1015,7 +915,6 @@
         background-color: whitesmoke;
         margin-left: 8px;
         margin-top: 0px;
-       
         p{
             font-size: 30px; 
             margin-top: -15px;
@@ -1028,7 +927,6 @@
             margin-bottom: 2rem;
             margin-left: 12rem;
         }
-
         .explRestaurants_element{
             width: 200px;
             height: 50px;
@@ -1039,23 +937,16 @@
           
             margin-top: 50px;
             margin-left: -1300px;
-            
-          
             i{
-                
                 font-family: Arial;
                 font-size: 15px;
                 margin-left: 20px;
                 margin-top: 16px;
-               
-                
             }
         }
-
         .explRestaurants_element:hover{ 
             background-color:$secundaryColor;
         }
-
         .btn{
             border-radius:20px 20px 20px 20px;
             margin: 0;
@@ -1068,7 +959,6 @@
     }
 
     #menus_page{
-      
        display: flex;
        flex-wrap: wrap;
        margin-left: 8px;
@@ -1078,7 +968,6 @@
         font-size: 20px; 
         font-weight:bold; 
        }
-
        .flex_btn{
         display: flex;
         flex-direction: column;
@@ -1088,40 +977,31 @@
         display: flex;
         flex-wrap: wrap;
         display: inline-flex;
-      
         margin: 2px;  
         margin-left: 25px;
         border-radius:35px 35px 35px 35px;
         background: whitesmoke; 
         box-shadow: 10px 10px 8px rgb(214, 207, 207);
        }
-
        .menu_element_btn{
         @include menu_btn;
         width: 45px;  
         }
-
         .menu_element_btn:hover{
             background: #f0ccf0;
         }
-
         .menu_element_last_btn{
-          
-            
             @include menu_btn; 
             margin-left: 25px;
-           
         }
         .menu_element_last_btn:hover{
             background: #f0ccf0;
         }
-
        .fa-solid{
             float: left;
             margin-left: 50px;
             font-size:30px;
        }
-
        .fa-mobile-screen-button{
             color:$greyColor;   
             margin-top: 40px; 
@@ -1130,49 +1010,38 @@
             color:$greyColor;
             margin-top: 40px;
        }
-
        .fa-store{
             color:$primaryColor;
             margin-top: 40px;
        }
-
        .menu_element_btn_modified{
-
             font-size: 20px;
             margin-top: 40px;
             float: left;
             margin-left:30px;
             font-family: Arial, sans-serif;
        } 
-       
        /* ciclo*/
        .cycle_element{
-            
             width: 30px;
             height: 30px;
             border-radius: 50%;
             background:$primaryColor;
             position: absolute;
-            
             margin-top: 40px;
             margin-left: -6px;
-              
-        
            i{
             color:$bodyColor;
             font-size: 20px;
             font-style: normal;   
             }
         }
-      
     }
 
     .menu_restaurant{
-       
         width: 425px;
         height: 1700px;
         background-color: whitesmoke;
-       
         p{
             margin-left: 20px;
             font-size: 30px; 
@@ -1182,7 +1051,6 @@
             display: flex;
             flex-direction: column;
         }
-
         .new_menu{
             position: absolute;
             background: $tertiaryColor;
@@ -1197,9 +1065,7 @@
            }
 
         }
-    
         .image_restaurant{
-           
             width: 20px;
             height: 390px;
             margin-left: 20px;
@@ -1207,8 +1073,6 @@
             background-color: $bodyColor;
             -webkit-box-shadow: -1px 7px 15px 5px rgba(0, 0, 0, 0.3);
 		    box-shadow: -1px 7px 15px 5px rgba(0, 0, 0, 0.3);
-          
-         
             img {
                 width: 20px;
                 height: 260px;
@@ -1218,30 +1082,23 @@
             .menu_page{
                 margin-left: 0px;
                 height: 80px;
-               
-                
             }
             .menu_name{
                 font-size:18px;
                 font-weight: bold;
                 margin-left: 5px;
-              
             }
            
             .heart{
                 width: 80px;
                 height: 20px;
-                
                 float:right;
-              
                 font-size: 25px;
                 .fa-heart{
                     background-color: white;
                     border: 1px black;
                     margin-left: 60px;
-                    
                 }
-
                 span:hover{
                 cursor: pointer;
                 color:$secundaryColor; /* pink*/
@@ -1250,18 +1107,12 @@
             .city{
                 margin-top: 20px;
             }
-
         }
-
     }
 
     /*........menu1.......*/
-
-    // Mixins
-
     @mixin banner_logo{
         .logo{
-           
             width:485px;
             height:90px ;
             background-color:white;
@@ -1300,7 +1151,6 @@
         background-image:url(../Images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);   
     }
     @mixin elements {
-        
         width: 450px;
         height: 70px;
         margin-left: 15px;
@@ -1309,7 +1159,6 @@
         margin-bottom: 15px; 
     }
     @mixin elementsNames {
-    
         padding-top: 7px;
         font-size: 20px;
         font-weight: bold;
@@ -1318,7 +1167,6 @@
         font-family:'shrikhand';
     }
     @mixin prices {
-        
         font-size: 15px;
         font-weight: bold;
         float: left;
@@ -1360,7 +1208,6 @@
         
     }
     @mixin descriptions {
-       
         font-size: 15px;
         margin-left: 10px; 
         font-family: 'Roboto';
@@ -1387,7 +1234,6 @@
             height: 100px;
             padding-top: 40px;
             padding-left: 20px;
-         
             .titleName_element{
                 width: 270px;
                 height: 100px;
@@ -1422,11 +1268,9 @@
             .entrees_element_price{
                @include prices;
             }
-            
             .entrees_element_animation{
               @include animations;
             }
-          
             &:hover{
                 .entrees_element_animation {
                     display: inline;
@@ -1446,7 +1290,6 @@
         }
         #dish_element{
             @include elements;
-
             .dish_element_name{
                 @include elementsNames; 
             }
@@ -1458,7 +1301,6 @@
             }
             .dish_element_animation{
                 @include animations;
-
             }
 
             &:hover{
@@ -1494,7 +1336,6 @@
         
             }
             &:hover{
-              
                 .desserts_element_animation {
                     display: inline;
                     transition: ease-in 2s;
@@ -1502,7 +1343,6 @@
                 .desserts_element_price{
                     margin-left: 350px;
                 }
-            
             }
         }
         .order{
@@ -1515,18 +1355,15 @@
             margin-left: 150px;
             margin-top: 70px;
             padding-top: 10px;
-
             :hover{
                 color: #585858;
             }
-            
             .order_element{
                 font-size: 20px;
                 color: white;
                 margin-left: 70px;
             }
         }
-        
     }
 
     .mainPage{
@@ -1540,35 +1377,27 @@
     }
 
     /*........menu3.......*/
-
     .photo3{
         @include photos;
         background-image:url(../Images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg);  
     }
 
     /*........menu4.......*/
-
     .photo4{
         @include photos;
         background-image:url(../Images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg);   
     }
-    
     @keyframes main_Page_Animation {
-       
         0%{
             transform: translateY(-20px);
             opacity: 0;
-           
         }
         100%{
             transform: translateY(0px);
             opacity: 1;
-         
         }
-        
     }
     .animation_element{
-       
         animation-name: main_Page_Animation;
         animation-duration: 3s;
     }
@@ -1579,32 +1408,26 @@
             opacity: 0;
         }
         100%{
-           
             opacity: 1;
             transform: rotate(0);  
         }
-        
     }
 
     .fa-circle-check{
-        
         animation-name: check;
         animation-duration: 2s;
     }
 
     @mixin footers {
-       
         width:485px;
         height: 300px;
         margin-left: -8px;
-       
         background-color: rgb(49, 49, 49);
         .headerfooter{
             padding: 10px;
             display: flex;
             flex-direction: column;
             margin-left: 5px;
-           
             p,h2{
                 color: $bodyColor;
                 text-align: left;
@@ -1615,23 +1438,15 @@
                 margin-left: 2px;
                 color: $bodyColor;
             }
-         
         }
-    
     }
-
     .footer{
-        
         display: flex;
         flex-wrap: wrap;
-       
         @include footers;
     }
 
 }
-
-
-
 
 
 /*........mobile verson 820.......*/
@@ -1643,10 +1458,6 @@
     
     }
     
-   
- /* Center the loader */
-
-
  .loader {
     position: fixed;
     height: 100%;
@@ -1671,7 +1482,6 @@
         -ms-flex-pack: center;
             justify-content: center;
     }
-  
   .loader__item {
     height: 5rem;
     width: 1.5rem;
@@ -1694,19 +1504,18 @@
   .primaryColor--1 {
     background-color: #9356dc;
   }
-  
+
   .secundaryColor--2 {
     background-color: #ff79da;
     -webkit-animation-delay: 0.5s;
-            animation-delay: 0.5s;
+        animation-delay: 0.5s;
   }
   
   .tertiaryColor--3 {
     background-color: #99e2d0;
     -webkit-animation-delay: 0.75s;
-            animation-delay: 0.75s;
+        animation-delay: 0.75s;
    }
-
 
   @-webkit-keyframes loader {
     100% {
@@ -1725,45 +1534,41 @@
   @-webkit-keyframes bounce {
     0% {
       -webkit-transform: translateX(0);
-              transform: translateX(0);
+            transform: translateX(0);
     }
     25% {
       -webkit-transform: translateX(2rem);
-              transform: translateX(2rem);
+            transform: translateX(2rem);
     }
     75% {
       -webkit-transform: translateX(-2rem);
-              transform: translateX(-2rem);
+            transform: translateX(-2rem);
     }
     100% {
       -webkit-transform: translateX(0);
-              transform: translateX(0);
+            transform: translateX(0);
     }
   }
   
   @keyframes bounce {
     0% {
       -webkit-transform: translateX(0);
-              transform: translateX(0);
+            transform: translateX(0);
     }
     25% {
       -webkit-transform: translateX(2rem);
-              transform: translateX(2rem);
+            transform: translateX(2rem);
     }
     75% {
       -webkit-transform: translateX(-2rem);
-              transform: translateX(-2rem);
+            transform: translateX(-2rem);
     }
     100% {
       -webkit-transform: translateX(0);
-              transform: translateX(0);
+            transform: translateX(0);
       }
-   }
-
-  
+    }
     /* end loading" */
-  
-
     figure{
         display: flex;
         flex-wrap: wrap;
@@ -1772,7 +1577,6 @@
         background-color: $bodyColor;
         margin-left: -10px;
         margin-top: -8px;
-        
         img{
             width: 200px;
             height: 40px;
@@ -1780,7 +1584,6 @@
             margin-top: 20px;
        }
     }
-
     .location{
         display: flex;
         flex-wrap: wrap;
@@ -1790,22 +1593,17 @@
         margin-left: -10px;
         margin-top: -2px;
         margin-bottom: 15px;
-        
         .location_element{
-         
             margin-left: -10px;
             height: 40px;
             padding-top: 20px;
             font-family: Arial, Helvetica, sans-serif;
             font-size: 20px;
-            
             i{
                 margin-left: 290px;
             }
         }
-     
     }
-
     #explRestaurants{
         display: flex;
         flex-wrap: wrap;
@@ -1814,15 +1612,12 @@
         background-color: whitesmoke;
         margin-left: -8px;
         margin-top: 0px;
-       
         p{
-            
             font-size: 25px; 
             margin-top: -15px;
             margin-left: 100px;
             color: #5f5f5f;
         }
-
         h1{
             font-size: 2.5rem;
             padding-top: 1rem;
@@ -1848,11 +1643,9 @@
                 margin-top: 16px;
             }
         }
-
         .explRestaurants_element:hover{ 
             background-color:$secundaryColor;
         }
-
         .btn{
             border-radius:20px 20px 20px 20px;
             margin: 0;
@@ -1865,7 +1658,6 @@
     }
 
     #menus_page{
-      
        display: flex;
        flex-wrap: wrap;
        width: 450px;
@@ -1876,14 +1668,11 @@
         font-size: 30px; 
         font-weight:bold; 
        }
-
        .flex_btn{
         display: flex;
         flex-direction: column;
        }
-
        @mixin menu_btn {
-     
         width: 710px;
         height: 100px;
         margin: 20px;  
@@ -1892,30 +1681,24 @@
         background: whitesmoke; 
         box-shadow: 10px 10px 8px rgb(214, 207, 207);
        }
-
        .menu_element_btn{
         @include menu_btn;  
         }
-
         .menu_element_btn:hover{
             background: #f0ccf0;
         }
-
         .menu_element_last_btn{
             @include menu_btn; 
             margin-left: 25px;
-           
         }
         .menu_element_last_btn:hover{
             background: #f0ccf0;
         }
-
        .fa-solid{
             float: left;
             margin-left: 50px;
             font-size:30px;
        }
-
        .fa-mobile-screen-button{
             color:$greyColor;   
             margin-top: 40px; 
@@ -1924,23 +1707,18 @@
             color:$greyColor;
             margin-top: 40px;
        }
-
        .fa-store{
             color:$primaryColor;
             margin-top: 40px;
        }
-
        .menu_element_btn_modified{
-
             font-size: 30px;
             margin-top: 40px;
             float: left;
             margin-left:40px;
             font-family: Arial, sans-serif;
-            font-weight:bold;
-          
+            font-weight:bold; 
        } 
-       
         /* ciclo*/
        .cycle_element{   
             width: 30px;
@@ -1948,25 +1726,20 @@
             border-radius: 50%;
             background:$primaryColor;
             position: absolute;
-            
             margin-top: 40px;
             margin-left: -6px;
-              
            i{
             color:$bodyColor;
             font-size: 20px;
             font-style: normal;   
             }
         }
-      
     }
 
     .menu_restaurant{
-       
         width: 820px;
         height: 1700px;
         background-color: whitesmoke;
-       
         p{
             margin-left: 20px;
             font-size: 30px; 
@@ -1976,7 +1749,6 @@
             display: flex;
             flex-direction: column;
         }
-
         .new_menu{
             position: absolute;
             background: $tertiaryColor;
@@ -1988,54 +1760,40 @@
             margin-top: 5px;
             text-align: center;
             color: green;
-            
            }
-
         }
-    
         .image_restaurant{
-            margin-left: 60px;
-            width: 795px;
+            width: 770px;
             height: 390px;
             margin: 20px;
             border-radius: 20px 20px 20px 20px;
             background-color: $bodyColor;
             -webkit-box-shadow: -1px 7px 15px 5px rgba(0, 0, 0, 0.3);
 		    box-shadow: -1px 7px 15px 5px rgba(0, 0, 0, 0.3);
-           
             img {
-                width: 795px;
+                width: 770px;
                 height: 260px;
                 border-radius: 20px 20px 0px 0px; 
             }
-           
             .menu_page{
                 margin-left: 0px;
-                height: 80px;
-               
-                
+                height: 80px; 
             }
             .menu_name{
                 font-size:18px;
                 font-weight: bold;
                 margin-left: 5px;
-              
             }
-           
             .heart{
                 width: 80px;
                 height: 20px;
-                
                 float:right;
-              
                 font-size: 25px;
                 .fa-heart{
                     background-color: white;
                     border: 1px black;
                     margin-left: 60px;
-                    
                 }
-
                 span:hover{
                 cursor: pointer;
                 color: $secundaryColor;
@@ -2045,18 +1803,11 @@
                 margin-top: 20px;
                 font-size: 12px;
             }
-
         }
-
     }
-
     /*........menu1.......*/
-
-    // Mixins
-
     @mixin banner_logo{
         .logo{
-           
             width:485px;
             height:90px ;
             background-color:white;
@@ -2095,8 +1846,7 @@
         background-image:url(../Images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);   
     }
     @mixin elements {
-        
-        width: 777px;
+        width: 760px;
         height: 70px;
         margin-left: 15px;
         background-color: white;
@@ -2104,7 +1854,6 @@
         margin-bottom: 15px; 
     }
     @mixin elementsNames {
-    
         padding-top: 7px;
         font-size: 20px;
         font-weight: bold;
@@ -2113,11 +1862,10 @@
         font-family:'shrikhand';
     }
     @mixin prices {
-        
         font-size: 15px;
         font-weight: bold;
         float: left;
-        margin-left: 715px;
+        margin-left: 700px;
         margin-top: -15px; 
     }
     @mixin animations{
@@ -2151,8 +1899,7 @@
         position: absolute;
         left: 0;
         margin-top:10px;
-       margin-left:17px; 
-        
+        margin-left:17px;  
     }
     @mixin descriptions {
        
@@ -2167,7 +1914,6 @@
         height: 50px;
         margin-left: 20px; 
     }
-
     @mixin principalPage {
         display: flex;
         flex-wrap: wrap;
@@ -2183,14 +1929,12 @@
             height: 100px;
             padding-top: 40px;
             padding-left: 20px;
-         
             .titleName_element{
                 width: 270px;
                 height: 100px;
                 font-size: 35px;
                 font-weight: bold;
-                font-family: shrikhand;
-                
+                font-family: shrikhand;  
             }
             .titleName_element_icon{
                 float: right;
@@ -2205,25 +1949,20 @@
                @include afters;
             }
         }
-        
         #entrees_element{
             @include elements;
-        
             .entrees_element_name{
                 @include elementsNames;
             }
             .entrees_element_description{
                @include descriptions;
             }
-
             .entrees_element_price{
                @include prices;
             }
-            
             .entrees_element_animation{
               @include animations;
             }
-          
             &:hover{
                 .entrees_element_animation {
                     display: inline;
@@ -2243,7 +1982,6 @@
         }
         #dish_element{
             @include elements;
-
             .dish_element_name{
                 @include elementsNames; 
             }
@@ -2255,9 +1993,7 @@
             }
             .dish_element_animation{
                 @include animations;
-
             }
-
             &:hover{
                 .dish_element_animation {
                     display: inline;
@@ -2266,8 +2002,7 @@
                 .dish_element_price{ 
                     margin-left: 550px;
                 }
-            }
-            
+            } 
         }
         .desserts{
             @include sizes;
@@ -2288,10 +2023,8 @@
             }
             .desserts_element_animation{
                 @include animations;
-        
             }
             &:hover{
-              
                 .desserts_element_animation {
                     display: inline;
                     transition: ease-in 2s;
@@ -2299,7 +2032,6 @@
                 .desserts_element_price{
                     margin-left: 550px;
                 }
-            
             }
         }
         .order{
@@ -2312,20 +2044,16 @@
             margin-left: 290px;
             margin-top: 70px;
             padding-top: 10px;
-
             :hover{
                 color: #585858;
-            }
-            
+            } 
             .order_element{
                 font-size: 20px;
                 color: white;
                 margin-left: 70px;
             }
-        }
-        
+        }  
     }
-
     .mainPage{
         @include principalPage;
     }
@@ -2335,23 +2063,17 @@
         @include photos;
         background-image:url(../Images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg);   
     }
-
     /*........menu3.......*/
-
     .photo3{
         @include photos;
         background-image:url(../Images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg);  
     }
-
     /*........menu4.......*/
-
     .photo4{
         @include photos;
         background-image:url(../Images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg);   
     }
-    
     @keyframes main_Page_Animation {
-       
         0%{
             transform: translateY(-20px);
             opacity: 0;
@@ -2360,49 +2082,37 @@
         100%{
             transform: translateY(0px);
             opacity: 1;
-         
-        }
-        
+        } 
     }
     .animation_element{
-       
         animation-name: main_Page_Animation;
         animation-duration: 3s;
     }
-
     @keyframes check {
         0%{
             transform: rotate(360deg);
             opacity: 0;
         }
         100%{
-           
             opacity: 1;
             transform: rotate(0);  
-        }
-        
+        } 
     }
-
     .fa-circle-check{
-        
         animation-name: check;
         animation-duration: 2s;
     }
-
     @mixin footers {
-       
         width:820px;
         height: 420px;
         margin-left: -8px;
         margin-bottom: -1px;
-       
         background-color: rgb(49, 49, 49);
         .headerfooter{
             padding: 10px;
             display: flex;
             flex-direction: column;
             margin-left: 5px;
-           
             p,h2{
                 color: $bodyColor;
                 text-align: left;
@@ -2413,17 +2123,11 @@
                 margin-left: 2px;
                 color: $bodyColor;
             }
-         
         }
-    
     }
-
     .footer{
-        
         display: flex;
         flex-wrap: wrap;
-       
         @include footers;
     }
-
 }

@@ -310,15 +310,15 @@ figure img {
   position: absolute;
   background: #99E2D0;
   margin-left: 230px;
-  margin-top: 15px;
+  margin-top: 25px;
   width: 90px;
-  height: 30px;
+  height: 40px;
 }
 .menu_restaurant .new_menu .new_menu_element {
-  margin-top: 6px;
-  text-align: center;
-  color: green;
-  margin-left: 30px;
+  color: rgb(5, 65, 5);
+  font-size: 30px;
+  margin-left: 19px;
+  font-weight: bold;
 }
 .menu_restaurant .flex {
   display: flex;
@@ -344,15 +344,17 @@ figure img {
   margin-left: 5px;
 }
 .menu_restaurant .image_restaurant .menu_name {
-  width: 130px;
-  font-size: 16px;
+  width: 230px;
+  font-size: 20px;
   font-weight: bold;
-  margin-left: -5px;
+  margin-left: 5px;
 }
 .menu_restaurant .image_restaurant .city {
-  width: 50px;
-  font-size: 12px;
-  margin-left: 15px;
+  width: 150px;
+  font-size: 16px;
+  margin-left: 5px;
+  margin-top: 15px;
+  font-style: normal;
 }
 .menu_restaurant .image_restaurant .heart {
   float: right;
@@ -1502,7 +1504,6 @@ figure .logo img {
     background: white;
     overflow-x: hidden;
   }
-  /* Center the loader */
   .loader {
     position: fixed;
     height: 100%;
@@ -1784,8 +1785,7 @@ figure .logo img {
     color: green;
   }
   .menu_restaurant .image_restaurant {
-    margin-left: 60px;
-    width: 795px;
+    width: 770px;
     height: 390px;
     margin: 20px;
     border-radius: 20px 20px 20px 20px;
@@ -1793,7 +1793,7 @@ figure .logo img {
     box-shadow: -1px 7px 15px 5px rgba(0, 0, 0, 0.3);
   }
   .menu_restaurant .image_restaurant img {
-    width: 795px;
+    width: 770px;
     height: 260px;
     border-radius: 20px 20px 0px 0px;
   }
@@ -1906,7 +1906,7 @@ figure .logo img {
     margin-left: 17px;
   }
   .mainPage #entrees_element {
-    width: 777px;
+    width: 760px;
     height: 70px;
     margin-left: 15px;
     background-color: white;
@@ -1930,7 +1930,7 @@ figure .logo img {
     font-size: 15px;
     font-weight: bold;
     float: left;
-    margin-left: 715px;
+    margin-left: 700px;
     margin-top: -15px;
   }
   .mainPage #entrees_element .entrees_element_animation {
@@ -1980,7 +1980,7 @@ figure .logo img {
     margin-left: 17px;
   }
   .mainPage #dish_element {
-    width: 777px;
+    width: 760px;
     height: 70px;
     margin-left: 15px;
     background-color: white;
@@ -2004,7 +2004,7 @@ figure .logo img {
     font-size: 15px;
     font-weight: bold;
     float: left;
-    margin-left: 715px;
+    margin-left: 700px;
     margin-top: -15px;
   }
   .mainPage #dish_element .dish_element_animation {
@@ -2054,7 +2054,7 @@ figure .logo img {
     margin-left: 17px;
   }
   .mainPage #desserts_element {
-    width: 777px;
+    width: 760px;
     height: 70px;
     margin-left: 15px;
     background-color: white;
@@ -2078,7 +2078,7 @@ figure .logo img {
     font-size: 15px;
     font-weight: bold;
     float: left;
-    margin-left: 715px;
+    margin-left: 700px;
     margin-top: -15px;
   }
   .mainPage #desserts_element .desserts_element_animation {
