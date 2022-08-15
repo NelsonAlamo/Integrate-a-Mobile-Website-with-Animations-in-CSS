@@ -186,14 +186,15 @@ figure img {
   margin-left: 30px;
   /* ciclo*/
 }
-#menus_page .flex_btn {
-  display: flex;
-  flex-direction: row;
-}
 #menus_page p {
   font-size: 30px;
   font-weight: bold;
   text-align: left;
+  margin-left: 100px;
+}
+#menus_page .flex_btn {
+  display: flex;
+  flex-direction: row;
 }
 #menus_page .menu_element_btn {
   width: 440px;
@@ -203,6 +204,12 @@ figure img {
   border-radius: 35px 35px 35px 35px;
   background: whitesmoke;
   box-shadow: 10px 10px 8px rgb(214, 207, 207);
+}
+#menus_page .menu_element_btn p {
+  margin-top: 0px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 0px;
 }
 #menus_page .menu_element_btn:hover {
   background: #f0ccf0;
@@ -218,6 +225,12 @@ figure img {
   margin-right: 50px;
   margin-left: 20px;
   margin: 20px;
+}
+#menus_page .menu_element_last_btn p {
+  margin-top: 0px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 0px;
 }
 #menus_page .menu_element_last_btn:hover {
   background: #f0ccf0;
@@ -291,7 +304,7 @@ figure img {
   font-size: 30px;
   font-weight: bold;
   text-align: left;
-  margin-left: 25px;
+  margin-left: 125px;
 }
 .menu_restaurant .new_menu {
   position: absolute;
@@ -1622,9 +1635,9 @@ figure .logo img {
     margin-top: 0px;
   }
   #explRestaurants p {
-    font-size: 30px;
+    font-size: 25px;
     margin-top: -15px;
-    margin-left: 20px;
+    margin-left: 100px;
     color: #5f5f5f;
   }
   #explRestaurants h1 {
@@ -1634,6 +1647,8 @@ figure .logo img {
     margin-left: 12rem;
   }
   #explRestaurants .explRestaurants_element {
+    display: flex;
+    flex-wrap: wrap;
     width: 250px;
     height: 60px;
     color: white;
@@ -1641,7 +1656,7 @@ figure .logo img {
     border-radius: 50px 50px 50px 50px;
     box-shadow: 0px 10px 8px rgb(214, 207, 207);
     margin-top: 90px;
-    margin-left: -1160px;
+    margin-left: 250px;
   }
   #explRestaurants .explRestaurants_element i {
     font-family: Arial;
@@ -1770,14 +1785,15 @@ figure .logo img {
   }
   .menu_restaurant .image_restaurant {
     margin-left: 60px;
-    width: 695px;
+    width: 795px;
     height: 390px;
+    margin: 20px;
     border-radius: 20px 20px 20px 20px;
     background-color: white;
     box-shadow: -1px 7px 15px 5px rgba(0, 0, 0, 0.3);
   }
   .menu_restaurant .image_restaurant img {
-    width: 695px;
+    width: 795px;
     height: 260px;
     border-radius: 20px 20px 0px 0px;
   }
@@ -1846,6 +1862,7 @@ figure .logo img {
     width: 820px;
     height: 1400px;
     background-color: whitesmoke;
+    overflow-x: hidden;
     margin-left: -10px;
     margin-top: -50px;
     border-radius: 50px 50px 0px 0px;
