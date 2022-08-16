@@ -894,7 +894,7 @@
     .location{
         display: flex;
         flex-wrap: wrap;
-        width: 820px;
+        width: 8200px;
         height: 50px;
         background-color:rgb(214, 211, 211);
         margin-left: -10px;
@@ -1157,10 +1157,10 @@
         background-image:url(../Images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);   
     }
     @mixin elements {
-        width: 760px;
+        width: 745px;
         height: 70px;
         margin-left: 15px;
-        background-color: white;
+        background-color:white;
         border-radius:20px 20px 20px 20px;
         margin-bottom: 15px; 
     }
@@ -1177,7 +1177,7 @@
         font-weight: bold;
         float: left;
         margin-left: 700px;
-        margin-top: -15px; 
+        margin-top: -30px; 
     }
     @mixin animations{
         display: flex;
@@ -1187,7 +1187,7 @@
         background: $tertiaryColor;
         float: right;
         position:relative;
-        margin-top: -59px;
+        margin-top: -67px;
         margin-left: 200px;
         border-radius: 0px 20px 20px 0px;
         display: none;
@@ -1280,7 +1280,7 @@
                     transition: ease-in 2s;   
                 }
                 .entrees_element_price{ /*.......after mouse.......*/
-                    margin-left: 550px;
+                    margin-left: 650px;
                 }
             }
         }   
@@ -1311,7 +1311,7 @@
                     transition: ease-in 2s;
                 }
                 .dish_element_price{ 
-                    margin-left: 550px;
+                    margin-left: 650px;
                 }
             } 
         }
@@ -1341,7 +1341,7 @@
                     transition: ease-in 2s;
                 }
                 .desserts_element_price{
-                    margin-left: 550px;
+                    margin-left: 650px;
                 }
             }
         }

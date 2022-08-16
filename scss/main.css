@@ -882,7 +882,7 @@ figure .logo img {
   .location {
     display: flex;
     flex-wrap: wrap;
-    width: 820px;
+    width: 8200px;
     height: 50px;
     background-color: rgb(214, 211, 211);
     margin-left: -10px;
@@ -1181,7 +1181,7 @@ figure .logo img {
     margin-left: 17px;
   }
   .mainPage #entrees_element {
-    width: 760px;
+    width: 745px;
     height: 70px;
     margin-left: 15px;
     background-color: white;
@@ -1206,7 +1206,7 @@ figure .logo img {
     font-weight: bold;
     float: left;
     margin-left: 700px;
-    margin-top: -15px;
+    margin-top: -30px;
   }
   .mainPage #entrees_element .entrees_element_animation {
     display: flex;
@@ -1216,7 +1216,7 @@ figure .logo img {
     background: #99E2D0;
     float: right;
     position: relative;
-    margin-top: -59px;
+    margin-top: -67px;
     margin-left: 200px;
     border-radius: 0px 20px 20px 0px;
     display: none;
@@ -1233,7 +1233,7 @@ figure .logo img {
     transition: ease-in 2s;
   }
   .mainPage #entrees_element:hover .entrees_element_price { /*.......after mouse.......*/
-    margin-left: 550px;
+    margin-left: 650px;
   }
   .mainPage .dish {
     display: flex;
@@ -1255,7 +1255,7 @@ figure .logo img {
     margin-left: 17px;
   }
   .mainPage #dish_element {
-    width: 760px;
+    width: 745px;
     height: 70px;
     margin-left: 15px;
     background-color: white;
@@ -1280,7 +1280,7 @@ figure .logo img {
     font-weight: bold;
     float: left;
     margin-left: 700px;
-    margin-top: -15px;
+    margin-top: -30px;
   }
   .mainPage #dish_element .dish_element_animation {
     display: flex;
@@ -1290,7 +1290,7 @@ figure .logo img {
     background: #99E2D0;
     float: right;
     position: relative;
-    margin-top: -59px;
+    margin-top: -67px;
     margin-left: 200px;
     border-radius: 0px 20px 20px 0px;
     display: none;
@@ -1307,7 +1307,7 @@ figure .logo img {
     transition: ease-in 2s;
   }
   .mainPage #dish_element:hover .dish_element_price {
-    margin-left: 550px;
+    margin-left: 650px;
   }
   .mainPage .desserts {
     display: flex;
@@ -1329,7 +1329,7 @@ figure .logo img {
     margin-left: 17px;
   }
   .mainPage #desserts_element {
-    width: 760px;
+    width: 745px;
     height: 70px;
     margin-left: 15px;
     background-color: white;
@@ -1354,7 +1354,7 @@ figure .logo img {
     font-weight: bold;
     float: left;
     margin-left: 700px;
-    margin-top: -15px;
+    margin-top: -30px;
   }
   .mainPage #desserts_element .desserts_element_animation {
     display: flex;
@@ -1364,7 +1364,7 @@ figure .logo img {
     background: #99E2D0;
     float: right;
     position: relative;
-    margin-top: -59px;
+    margin-top: -67px;
     margin-left: 200px;
     border-radius: 0px 20px 20px 0px;
     display: none;
@@ -1381,7 +1381,7 @@ figure .logo img {
     transition: ease-in 2s;
   }
   .mainPage #desserts_element:hover .desserts_element_price {
-    margin-left: 550px;
+    margin-left: 650px;
   }
   .mainPage .order {
     display: flex;
