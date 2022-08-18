@@ -1,6 +1,4 @@
-/*........mobile verson 480.......*/
-/*........Desktop verson.......*/
-/* Center the loader */
+
 .loader {
   position: fixed;
   height: 100%;
@@ -128,7 +126,7 @@ figure img {
   margin-left: 780px;
 }
 
-#explRestaurants {
+.explRestaurants {
   width: 1950px;
   height: 320px;
   background-color: whitesmoke;
@@ -136,13 +134,13 @@ figure img {
   margin-top: -20px;
   padding: 20px;
 }
-#explRestaurants h1 {
+.explRestaurants h1 {
   font-size: 2.5rem;
   padding-top: 1rem;
   margin-bottom: 2rem;
   margin-left: 42rem;
 }
-#explRestaurants h2 {
+.explRestaurants h2 {
   text-align: center;
   margin-right: 230px;
   font-size: 30px;
@@ -150,7 +148,7 @@ figure img {
   margin-bottom: 50px;
   color: #5f5f5f;
 }
-#explRestaurants .explRestaurants_element {
+.explRestaurants .explRestaurants_element {
   width: 320px;
   height: 70px;
   color: white;
@@ -160,7 +158,7 @@ figure img {
   margin-left: 710px;
   margin-top: 50px;
 }
-#explRestaurants .explRestaurants_element i {
+.explRestaurants .explRestaurants_element i {
   float: left;
   font-family: Arial;
   font-size: 25px;
@@ -168,35 +166,27 @@ figure img {
   margin-top: 20px;
   text-align: center;
 }
-#explRestaurants .explRestaurants_element:hover {
+.explRestaurants .explRestaurants_element:hover {
   background-color: #FF79DA;
 }
-#explRestaurants .btn {
-  border-radius: 20px 20px 20px 20px;
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 27%;
-  transform: translateY(-50%, -50%);
-}
 
-#menus_page {
+.menus_page {
   width: 1850px;
   height: 230px;
   margin-left: 30px;
   /* ciclo*/
 }
-#menus_page p {
+.menus_page p {
   font-size: 30px;
   font-weight: bold;
   text-align: left;
   margin-left: 100px;
 }
-#menus_page .flex_btn {
+.menus_page .flex_btn {
   display: flex;
   flex-direction: row;
 }
-#menus_page .menu_element_btn {
+.menus_page .menu_element_btn {
   width: 440px;
   height: 100px;
   margin: 20px;
@@ -205,16 +195,16 @@ figure img {
   background: whitesmoke;
   box-shadow: 10px 10px 8px rgb(214, 207, 207);
 }
-#menus_page .menu_element_btn p {
+.menus_page .menu_element_btn p {
   margin-top: 0px;
   font-size: 20px;
   font-weight: bold;
   margin-left: 0px;
 }
-#menus_page .menu_element_btn:hover {
+.menus_page .menu_element_btn:hover {
   background: #f0ccf0;
 }
-#menus_page .menu_element_last_btn {
+.menus_page .menu_element_last_btn {
   margin: 25px;
   width: 440px;
   height: 100px;
@@ -224,45 +214,45 @@ figure img {
   background: whitesmoke;
   box-shadow: 10px 10px 8px rgb(214, 207, 207);
 }
-#menus_page .menu_element_last_btn p {
+.menus_page .menu_element_last_btn p {
   margin-top: 0px;
   font-size: 20px;
   font-weight: bold;
   margin-left: 0px;
 }
-#menus_page .menu_element_last_btn:hover {
+.menus_page .menu_element_last_btn:hover {
   background: #f0ccf0;
 }
-#menus_page .fa-solid {
+.menus_page .fa-solid {
   float: left;
   margin-left: 50px;
   font-size: 30px;
 }
-#menus_page .fa-mobile-screen-button {
+.menus_page .fa-mobile-screen-button {
   color: grey;
   margin-top: 40px;
 }
-#menus_page .fa-list-ul {
+.menus_page .fa-list-ul {
   color: grey;
   margin-top: 40px;
 }
-#menus_page .fa-store {
+.menus_page .fa-store {
   color: #9356DC;
   margin-top: 40px;
 }
-#menus_page .menu_element_btn_modified {
+.menus_page .menu_element_btn_modified {
   font-size: 18px;
   margin-top: 40px;
   float: left;
   margin-left: 30px;
   font-family: Arial, sans-serif;
 }
-#menus_page .menu_element_btn_modified p {
+.menus_page .menu_element_btn_modified p {
   margin-top: 0px;
   font-size: 20px;
   font-weight: bold;
 }
-#menus_page .cycle_element {
+.menus_page .cycle_element {
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -271,19 +261,19 @@ figure img {
   margin-left: -10px;
   margin-top: 35px;
 }
-#menus_page .cycle_element p {
+.menus_page .cycle_element p {
   font-size: 12px;
   margin-left: 10px;
   margin-top: 6px;
   color: white;
 }
-#menus_page i {
+.menus_page i {
   font-size: 20px;
   font-style: normal;
   margin-left: 10px;
   margin-top: 2px;
 }
-#menus_page .cycle_element_modified {
+.menus_page .cycle_element_modified {
   text-align: center;
   margin-top: 5px;
 }
@@ -445,7 +435,7 @@ figure .logo img {
   margin-top: 12px;
   margin-left: 17px;
 }
-.mainPage #entrees_element {
+.mainPage .entrees_element {
   width: 1920px;
   height: 90px;
   margin-left: 20px;
@@ -454,7 +444,7 @@ figure .logo img {
   margin-bottom: 15px;
   box-shadow: 5px 3px 5px rgb(214, 207, 207);
 }
-.mainPage #entrees_element .entrees_element_name {
+.mainPage .entrees_element .entrees_element_name {
   padding-top: 7px;
   font-size: 25px;
   font-weight: bold;
@@ -462,21 +452,21 @@ figure .logo img {
   margin-bottom: 10px;
   font-family: "shrikhand";
 }
-.mainPage #entrees_element .entrees_element_description {
+.mainPage .entrees_element .entrees_element_description {
   font-size: 14px;
   margin-left: 10px;
   font-weight: bold;
   font-family: sans-serif;
   margin-top: 20px;
 }
-.mainPage #entrees_element .entrees_element_price {
+.mainPage .entrees_element .entrees_element_price {
   font-size: 15px;
   font-weight: bold;
   float: left;
   margin-left: 1880px;
   margin-top: -30px;
 }
-.mainPage #entrees_element .entrees_element_animation {
+.mainPage .entrees_element .entrees_element_animation {
   width: 60px;
   height: 90px;
   background: #99E2D0;
@@ -488,17 +478,17 @@ figure .logo img {
   display: none;
   cursor: pointer;
 }
-.mainPage #entrees_element .entrees_element_animation .fa-circle-check {
+.mainPage .entrees_element .entrees_element_animation .fa-circle-check {
   margin-top: 33px;
   margin-left: 18px;
   color: white;
   font-size: 20px;
 }
-.mainPage #entrees_element:hover .entrees_element_animation {
+.mainPage .entrees_element:hover .entrees_element_animation {
   display: inline;
   transition: ease-in 2s;
 }
-.mainPage #entrees_element:hover .entrees_element_price { /*.......after mouse.......*/
+.mainPage .entrees_element:hover .entrees_element_price { /*.......after mouse.......*/
   margin-left: 1830px;
 }
 .mainPage .dish {
@@ -516,7 +506,7 @@ figure .logo img {
   margin-top: 12px;
   margin-left: 17px;
 }
-.mainPage #dish_element {
+.mainPage .dish_element {
   width: 1920px;
   height: 90px;
   margin-left: 20px;
@@ -525,7 +515,7 @@ figure .logo img {
   margin-bottom: 15px;
   box-shadow: 5px 3px 5px rgb(214, 207, 207);
 }
-.mainPage #dish_element .dish_element_name {
+.mainPage .dish_element .dish_element_name {
   padding-top: 7px;
   font-size: 25px;
   font-weight: bold;
@@ -533,21 +523,21 @@ figure .logo img {
   margin-bottom: 10px;
   font-family: "shrikhand";
 }
-.mainPage #dish_element .dish_element_description {
+.mainPage .dish_element .dish_element_description {
   font-size: 14px;
   margin-left: 10px;
   font-weight: bold;
   font-family: sans-serif;
   margin-top: 20px;
 }
-.mainPage #dish_element .dish_element_price {
+.mainPage .dish_element .dish_element_price {
   font-size: 15px;
   font-weight: bold;
   float: left;
   margin-left: 1880px;
   margin-top: -30px;
 }
-.mainPage #dish_element .dish_element_animation {
+.mainPage .dish_element .dish_element_animation {
   width: 60px;
   height: 90px;
   background: #99E2D0;
@@ -559,17 +549,17 @@ figure .logo img {
   display: none;
   cursor: pointer;
 }
-.mainPage #dish_element .dish_element_animation .fa-circle-check {
+.mainPage .dish_element .dish_element_animation .fa-circle-check {
   margin-top: 33px;
   margin-left: 18px;
   color: white;
   font-size: 20px;
 }
-.mainPage #dish_element:hover .dish_element_animation {
+.mainPage .dish_element:hover .dish_element_animation {
   display: inline;
   transition: ease-in 2s;
 }
-.mainPage #dish_element:hover .dish_element_price {
+.mainPage .dish_element:hover .dish_element_price {
   margin-left: 1830px;
 }
 .mainPage .desserts {
@@ -587,7 +577,7 @@ figure .logo img {
   margin-top: 12px;
   margin-left: 17px;
 }
-.mainPage #desserts_element {
+.mainPage .desserts_element {
   width: 1920px;
   height: 90px;
   margin-left: 20px;
@@ -596,7 +586,7 @@ figure .logo img {
   margin-bottom: 15px;
   box-shadow: 5px 3px 5px rgb(214, 207, 207);
 }
-.mainPage #desserts_element .desserts_element_name {
+.mainPage .desserts_element .desserts_element_name {
   padding-top: 7px;
   font-size: 25px;
   font-weight: bold;
@@ -604,21 +594,21 @@ figure .logo img {
   margin-bottom: 10px;
   font-family: "shrikhand";
 }
-.mainPage #desserts_element .desserts_element_description {
+.mainPage .desserts_element .desserts_element_description {
   font-size: 14px;
   margin-left: 10px;
   font-weight: bold;
   font-family: sans-serif;
   margin-top: 20px;
 }
-.mainPage #desserts_element .desserts_element_price {
+.mainPage .desserts_element .desserts_element_price {
   font-size: 15px;
   font-weight: bold;
   float: left;
   margin-left: 1880px;
   margin-top: -30px;
 }
-.mainPage #desserts_element .desserts_element_animation {
+.mainPage .desserts_element .desserts_element_animation {
   width: 60px;
   height: 90px;
   background: #99E2D0;
@@ -630,17 +620,17 @@ figure .logo img {
   display: none;
   cursor: pointer;
 }
-.mainPage #desserts_element .desserts_element_animation .fa-circle-check {
+.mainPage .desserts_element .desserts_element_animation .fa-circle-check {
   margin-top: 33px;
   margin-left: 18px;
   color: white;
   font-size: 20px;
 }
-.mainPage #desserts_element:hover .desserts_element_animation {
+.mainPage .desserts_element:hover .desserts_element_animation {
   display: inline;
   transition: ease-in 2s;
 }
-.mainPage #desserts_element:hover .desserts_element_price {
+.mainPage .desserts_element:hover .desserts_element_price {
   margin-left: 1830px;
 }
 .mainPage .order {
@@ -890,7 +880,7 @@ figure .logo img {
     margin-bottom: 15px;
   }
   .location .location_element {
-    margin-left: -10px;
+    margin-left: -490px;
     height: 40px;
     padding-top: 20px;
     font-family: Arial, Helvetica, sans-serif;
@@ -899,7 +889,7 @@ figure .logo img {
   .location .location_element i {
     margin-left: 290px;
   }
-  #explRestaurants {
+  .explRestaurants {
     display: flex;
     flex-wrap: wrap;
     width: 800px;
@@ -908,19 +898,19 @@ figure .logo img {
     margin-left: -8px;
     margin-top: 0px;
   }
-  #explRestaurants p {
+  .explRestaurants p {
     font-size: 25px;
     margin-top: -15px;
     margin-left: 100px;
     color: #5f5f5f;
   }
-  #explRestaurants h1 {
+  .explRestaurants h1 {
     font-size: 2.5rem;
     padding-top: 1rem;
     margin-bottom: 2rem;
     margin-left: 12rem;
   }
-  #explRestaurants .explRestaurants_element {
+  .explRestaurants .explRestaurants_element {
     display: flex;
     flex-wrap: wrap;
     width: 250px;
@@ -932,24 +922,17 @@ figure .logo img {
     margin-top: 90px;
     margin-left: 250px;
   }
-  #explRestaurants .explRestaurants_element i {
+  .explRestaurants .explRestaurants_element i {
     font-family: Arial;
     font-size: 20px;
     margin-left: 20px;
     margin-top: 16px;
   }
-  #explRestaurants .explRestaurants_element:hover {
+  .explRestaurants .explRestaurants_element:hover {
     background-color: #FF79DA;
   }
-  #explRestaurants .btn {
-    border-radius: 20px 20px 20px 20px;
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 27%;
-    transform: translateY(-50%, -50%);
-  }
-  #menus_page {
+
+  .menus_page {
     display: flex;
     flex-wrap: wrap;
     width: 450px;
@@ -957,16 +940,16 @@ figure .logo img {
     margin-left: 8px;
     /* ciclo*/
   }
-  #menus_page p {
+  .menus_page p {
     margin-left: 20px;
     font-size: 30px;
     font-weight: bold;
   }
-  #menus_page .flex_btn {
+  .menus_page .flex_btn {
     display: flex;
     flex-direction: column;
   }
-  #menus_page .menu_element_btn {
+  .menus_page .menu_element_btn {
     width: 700px;
     height: 100px;
     margin: 20px;
@@ -975,10 +958,10 @@ figure .logo img {
     background: whitesmoke;
     box-shadow: 10px 10px 8px rgb(214, 207, 207);
   }
-  #menus_page .menu_element_btn:hover {
+  .menus_page .menu_element_btn:hover {
     background: #f0ccf0;
   }
-  #menus_page .menu_element_last_btn {
+  .menus_page .menu_element_last_btn {
     width: 700px;
     height: 100px;
     margin: 20px;
@@ -988,27 +971,27 @@ figure .logo img {
     box-shadow: 10px 10px 8px rgb(214, 207, 207);
     margin-left: 25px;
   }
-  #menus_page .menu_element_last_btn:hover {
+  .menus_page .menu_element_last_btn:hover {
     background: #f0ccf0;
   }
-  #menus_page .fa-solid {
+  .menus_page .fa-solid {
     float: left;
     margin-left: 50px;
     font-size: 30px;
   }
-  #menus_page .fa-mobile-screen-button {
+  .menus_page .fa-mobile-screen-button {
     color: grey;
     margin-top: 40px;
   }
-  #menus_page .fa-list-ul {
+  .menus_page .fa-list-ul {
     color: grey;
     margin-top: 40px;
   }
-  #menus_page .fa-store {
+  .menus_page .fa-store {
     color: #9356DC;
     margin-top: 40px;
   }
-  #menus_page .menu_element_btn_modified {
+  .menus_page .menu_element_btn_modified {
     font-size: 30px;
     margin-top: 40px;
     float: left;
@@ -1016,7 +999,7 @@ figure .logo img {
     font-family: Arial, sans-serif;
     font-weight: bold;
   }
-  #menus_page .cycle_element {
+  .menus_page .cycle_element {
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -1025,7 +1008,7 @@ figure .logo img {
     margin-top: 40px;
     margin-left: -6px;
   }
-  #menus_page .cycle_element i {
+  .menus_page .cycle_element i {
     color: white;
     font-size: 20px;
     font-style: normal;
@@ -1511,7 +1494,7 @@ figure .logo img {
   }
 }
 /*........mobile verson 420.......*/
-@media only screen and (max-width: 414px) {
+@media (max-width: 414px) {
   body {
     overflow-x: hidden;
   }
@@ -1638,7 +1621,7 @@ figure .logo img {
     margin-left: 100px;
     margin-top: 20px;
   }
-  #explRestaurants {
+  .explRestaurants {
     display: flex;
     flex-wrap: wrap;
     width: 374px;
@@ -1647,7 +1630,7 @@ figure .logo img {
     margin-left: -8px;
     margin-top: 0px;
   }
-  #explRestaurants h1 {
+  .explRestaurants h1 {
     display: flex;
     flex-wrap: wrap;
     font-size: 30px;
@@ -1655,7 +1638,7 @@ figure .logo img {
     margin-bottom: 2rem;
     margin-left: 2rem;
   }
-  #explRestaurants h2 {
+  .explRestaurants h2 {
     display: block;
     font-size: 1.5em;
     -webkit-margin-before: 0.83em;
@@ -1669,7 +1652,7 @@ figure .logo img {
     font-weight: bold;
     color: #5f5f5f;
   }
-  #explRestaurants .explRestaurants_element {
+  .explRestaurants .explRestaurants_element {
     display: flex;
     flex-wrap: wrap;
     width: 300px;
@@ -1681,24 +1664,16 @@ figure .logo img {
     margin-left: 25px;
     margin-top: 50px;
   }
-  #explRestaurants .explRestaurants_element i {
+  .explRestaurants .explRestaurants_element i {
     font-family: Arial;
     font-size: 25px;
     margin-left: 10px;
     margin-top: 16px;
   }
-  #explRestaurants .explRestaurants_element:hover {
+  .explRestaurants .explRestaurants_element:hover {
     background-color: #FF79DA;
   }
-  #explRestaurants .btn {
-    border-radius: 20px 20px 20px 20px;
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 27%;
-    transform: translateY(-50%, -50%);
-  }
-  #menus_page {
+  .menus_page {
     display: flex;
     flex-wrap: wrap;
     margin-left: -8px;
@@ -1707,16 +1682,16 @@ figure .logo img {
     height: 500px;
     /* ciclo*/
   }
-  #menus_page p {
+  .menus_page p {
     margin-left: 20px;
     font-size: 30px;
     font-weight: bold;
   }
-  #menus_page .flex_btn {
+  .menus_page .flex_btn {
     display: flex;
     flex-direction: column;
   }
-  #menus_page .menu_element_btn {
+  .menus_page .menu_element_btn {
     display: flex;
     flex-wrap: wrap;
     display: inline-flex;
@@ -1728,10 +1703,10 @@ figure .logo img {
     background: whitesmoke;
     box-shadow: 10px 10px 8px rgb(214, 207, 207);
   }
-  #menus_page .menu_element_btn:hover {
+  .menus_page .menu_element_btn:hover {
     background: #f0ccf0;
   }
-  #menus_page .menu_element_last_btn {
+  .menus_page .menu_element_last_btn {
     display: flex;
     flex-wrap: wrap;
     display: inline-flex;
@@ -1743,34 +1718,34 @@ figure .logo img {
     background: whitesmoke;
     box-shadow: 10px 10px 8px rgb(214, 207, 207);
   }
-  #menus_page .menu_element_last_btn:hover {
+  .menus_page .menu_element_last_btn:hover {
     background: #f0ccf0;
   }
-  #menus_page .fa-solid {
+  .menus_page .fa-solid {
     float: left;
     margin-left: 30px;
     font-size: 30px;
   }
-  #menus_page .fa-mobile-screen-button {
+  .menus_page .fa-mobile-screen-button {
     color: grey;
     margin-top: 30px;
   }
-  #menus_page .fa-list-ul {
+  .menus_page .fa-list-ul {
     color: grey;
     margin-top: 30px;
   }
-  #menus_page .fa-store {
+  .menus_page .fa-store {
     color: #9356DC;
     margin-top: 30px;
   }
-  #menus_page .menu_element_btn_modified {
+  .menus_page .menu_element_btn_modified {
     margin-top: 35px;
     margin-left: 10px;
   }
-  #menus_page .menu_element_btn_modified p {
+  .menus_page .menu_element_btn_modified p {
     font-size: 20px;
   }
-  #menus_page .cycle_element {
+  .menus_page .cycle_element {
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -1779,7 +1754,7 @@ figure .logo img {
     margin-top: 30px;
     margin-left: -6px;
   }
-  #menus_page .cycle_element i {
+  .menus_page .cycle_element i {
     color: white;
     font-size: 20px;
     font-style: normal;
@@ -1936,7 +1911,7 @@ figure .logo img {
     margin-top: 10px;
     margin-left: 17px;
   }
-  .mainPage #entrees_element {
+  .mainPage .entrees_element {
     width: 370px;
     height: 70px;
     margin-left: 15px;
@@ -1944,7 +1919,7 @@ figure .logo img {
     border-radius: 20px 20px 20px 20px;
     margin-bottom: 15px;
   }
-  .mainPage #entrees_element .entrees_element_name {
+  .mainPage .entrees_element .entrees_element_name {
     padding-top: 7px;
     font-size: 20px;
     font-weight: bold;
@@ -1952,19 +1927,19 @@ figure .logo img {
     margin-bottom: 10px;
     font-family: "shrikhand";
   }
-  .mainPage #entrees_element .entrees_element_description {
+  .mainPage .entrees_element .entrees_element_description {
     font-size: 15px;
     margin-left: 10px;
     font-family: "Roboto";
   }
-  .mainPage #entrees_element .entrees_element_price {
+  .mainPage .entrees_element .entrees_element_price {
     font-size: 15px;
     font-weight: bold;
     float: left;
     margin-left: 320px;
     margin-top: -33px;
   }
-  .mainPage #entrees_element .entrees_element_animation {
+  .mainPage .entrees_element .entrees_element_animation {
     display: flex;
     flex-wrap: wrap;
     width: 60px;
@@ -1978,17 +1953,17 @@ figure .logo img {
     display: none;
     cursor: pointer;
   }
-  .mainPage #entrees_element .entrees_element_animation .fa-circle-check {
+  .mainPage .entrees_element .entrees_element_animation .fa-circle-check {
     margin-top: 27px;
     margin-left: 18px;
     color: white;
     font-size: 20px;
   }
-  .mainPage #entrees_element:hover .entrees_element_animation {
+  .mainPage .entrees_element:hover .entrees_element_animation {
     display: inline;
     transition: ease-in 2s;
   }
-  .mainPage #entrees_element:hover .entrees_element_price { /*...after mouse...*/
+  .mainPage .entrees_element:hover .entrees_element_price { /*...after mouse...*/
     margin-left: 280px;
   }
   .mainPage .dish {
@@ -2010,7 +1985,7 @@ figure .logo img {
     margin-top: 10px;
     margin-left: 17px;
   }
-  .mainPage #dish_element {
+  .mainPage .dish_element {
     width: 370px;
     height: 70px;
     margin-left: 15px;
@@ -2018,7 +1993,7 @@ figure .logo img {
     border-radius: 20px 20px 20px 20px;
     margin-bottom: 15px;
   }
-  .mainPage #dish_element .dish_element_name {
+  .mainPage .dish_element .dish_element_name {
     padding-top: 7px;
     font-size: 20px;
     font-weight: bold;
@@ -2026,19 +2001,19 @@ figure .logo img {
     margin-bottom: 10px;
     font-family: "shrikhand";
   }
-  .mainPage #dish_element .dish_element_description {
+  .mainPage .dish_element .dish_element_description {
     font-size: 15px;
     margin-left: 10px;
     font-family: "Roboto";
   }
-  .mainPage #dish_element .dish_element_price {
+  .mainPage .dish_element .dish_element_price {
     font-size: 15px;
     font-weight: bold;
     float: left;
     margin-left: 320px;
     margin-top: -33px;
   }
-  .mainPage #dish_element .dish_element_animation {
+  .mainPage .dish_element .dish_element_animation {
     display: flex;
     flex-wrap: wrap;
     width: 60px;
@@ -2052,17 +2027,17 @@ figure .logo img {
     display: none;
     cursor: pointer;
   }
-  .mainPage #dish_element .dish_element_animation .fa-circle-check {
+  .mainPage .dish_element .dish_element_animation .fa-circle-check {
     margin-top: 27px;
     margin-left: 18px;
     color: white;
     font-size: 20px;
   }
-  .mainPage #dish_element:hover .dish_element_animation {
+  .mainPage .dish_element:hover .dish_element_animation {
     display: inline;
     transition: ease-in 2s;
   }
-  .mainPage #dish_element:hover .dish_element_price {
+  .mainPage .dish_element:hover .dish_element_price {
     margin-left: 280px;
   }
   .mainPage .desserts {
@@ -2084,7 +2059,7 @@ figure .logo img {
     margin-top: 10px;
     margin-left: 17px;
   }
-  .mainPage #desserts_element {
+  .mainPage .desserts_element {
     width: 370px;
     height: 70px;
     margin-left: 15px;
@@ -2092,7 +2067,7 @@ figure .logo img {
     border-radius: 20px 20px 20px 20px;
     margin-bottom: 15px;
   }
-  .mainPage #desserts_element .desserts_element_name {
+  .mainPage .desserts_element .desserts_element_name {
     padding-top: 7px;
     font-size: 20px;
     font-weight: bold;
@@ -2100,19 +2075,19 @@ figure .logo img {
     margin-bottom: 10px;
     font-family: "shrikhand";
   }
-  .mainPage #desserts_element .desserts_element_description {
+  .mainPage .desserts_element .desserts_element_description {
     font-size: 15px;
     margin-left: 10px;
     font-family: "Roboto";
   }
-  .mainPage #desserts_element .desserts_element_price {
+  .mainPage .desserts_element .desserts_element_price {
     font-size: 15px;
     font-weight: bold;
     float: left;
     margin-left: 320px;
     margin-top: -33px;
   }
-  .mainPage #desserts_element .desserts_element_animation {
+  .mainPage .desserts_element .desserts_element_animation {
     display: flex;
     flex-wrap: wrap;
     width: 60px;
@@ -2126,17 +2101,17 @@ figure .logo img {
     display: none;
     cursor: pointer;
   }
-  .mainPage #desserts_element .desserts_element_animation .fa-circle-check {
+  .mainPage .desserts_element .desserts_element_animation .fa-circle-check {
     margin-top: 27px;
     margin-left: 18px;
     color: white;
     font-size: 20px;
   }
-  .mainPage #desserts_element:hover .desserts_element_animation {
+  .mainPage .desserts_element:hover .desserts_element_animation {
     display: inline;
     transition: ease-in 2s;
   }
-  .mainPage #desserts_element:hover .desserts_element_price {
+  .mainPage .desserts_element:hover .desserts_element_price {
     margin-left: 280px;
   }
   .mainPage .order {
